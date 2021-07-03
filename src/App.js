@@ -1,13 +1,28 @@
 import React from 'react';
+import axios from "axios";
+
 import { Route } from "react-router-dom";
 import { Header } from './components'
 import { Home, Cart } from "./pages";
+
 function App() {
+  const [pizzas, setPizzas] = React.useState([])
+
+  React.useEffect(() => {
+    axios.get('http://localhost:3000/db.json')
+      .then(({ data }) => { setPizzas(data.pizzas) })
+
+    // fetch('http://localhost:3000/db.json')
+    //   .then(res => res.json())
+    //   .then(json => setPizzas(json.pizzas))
+  }, []);
+
   return (
     <div className="wrapper">
       <Header/>
-      <div className="conten t">
-        <Route path='/' component={Home} exact/>
+      <div className="content">
+        <Route path='/' render={() => <Home pizzas={pizzas} />} exact/>
+        {/*<Route path='/' component={Home} exact/>*/}
         <Route path='/cart' component={Cart} exact/>
       </div>
     </div>

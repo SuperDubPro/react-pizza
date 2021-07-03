@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10859de2.chunk.css",
+    "main.js": "/static/js/main.c2e6be49.chunk.js",
+    "main.js.map": "/static/js/main.c2e6be49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e3b7fc2f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e3b7fc2f.js.map",
+    "static/js/2.43865a1b.chunk.js": "/static/js/2.43865a1b.chunk.js",
+    "static/js/2.43865a1b.chunk.js.map": "/static/js/2.43865a1b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.10859de2.chunk.css.map": "/static/css/main.10859de2.chunk.css.map",
+    "static/js/2.43865a1b.chunk.js.LICENSE.txt": "/static/js/2.43865a1b.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/static/media/ProximaNova-Regular.d97f8f32.eot",
+    "static/media/pizza-logo.56ac8703.svg": "/static/media/pizza-logo.56ac8703.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3b7fc2f.js",
+    "static/js/2.43865a1b.chunk.js",
+    "static/css/main.10859de2.chunk.css",
+    "static/js/main.c2e6be49.chunk.js"
+  ]
+}
